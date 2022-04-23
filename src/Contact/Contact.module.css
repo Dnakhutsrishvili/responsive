@@ -1,0 +1,204 @@
+.parentflex {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.dark {
+  background: rgba(118, 145, 181, 0.4);
+  width: 63px;
+  height: 29px;
+  width: 55px;
+  height: 19px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  text-align: center;
+
+  color: #202e40;
+}
+
+.light {
+  background: #7691b5;
+
+  width: 63px;
+  height: 29px;
+  width: 55px;
+  height: 19px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.table {
+  margin-top: -8px;
+  text-align: center;
+}
+.cont {
+  margin-top: -10px;
+}
+.apointment {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #ffffff;
+}
+.paragraph {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  text-align: right;
+
+  color: #7691b5;
+}
+.image {
+  height: 779px;
+  width: 559px;
+  margin: 0;
+  border-radius: 0px;
+  margin-bottom: -350px;
+  margin-top: -50px;
+  margin-left: -190px;
+}
+.flexcont {
+  display: flex;
+  justify-content: center;
+}
+.inp {
+  width: 354px;
+  height: 183px;
+
+  background: #ffffff;
+  box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+}
+
+.inputcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.label {
+  margin-bottom: 6px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+.btn {
+  width: 195px;
+  height: 43px;
+
+  background: #7691b5;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25), inset -4px -4px 8px #3a5272,
+    inset 4px 4px 8px rgba(255, 255, 255, 0.25);
+  border-radius: 21.5px;
+  align-self: flex-end;
+  margin-top: 47px;
+}
+.hours {
+  align-self: flex-end;
+  margin-top: 68px;
+  margin-bottom: -280px;
+}
+@media only screen and (max-width: 800px) {
+  .apointment {
+    font-size: 36px;
+    height: auto;
+    width: auto;
+    text-align: center;
+  }
+  .paragraph {
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .parentflex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flexcont {
+    flex-direction: column;
+    margin-top: 550px;
+  }
+  .image {
+    margin-left: -80px;
+    margin-bottom: 0px;
+  }
+  .inputcont {
+    position: absolute;
+    left: 25%;
+    width: 30%;
+    top: 65%;
+  }
+  .hours {
+    display: none;
+  }
+  .gone {
+    position: absolute;
+    top: 105%;
+    left: 400px;
+  }
+  .inp {
+    background-color: #7691b5;
+    color: white;
+  }
+
+  .label {
+    margin-top: -150px;
+  }
+
+  .table {
+    width: 500px;
+    height: 40px;
+  }
+  .dark {
+    font-size: 15px;
+  }
+  .light {
+    font-size: 15px;
+  }
+}

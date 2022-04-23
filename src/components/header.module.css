@@ -1,0 +1,49 @@
+.logo {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.parent {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(180deg, #111c2e 0%, rgba(17, 28, 46, 0) 100%);
+}
+.vector {
+  margin-top: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.memorialgrup {
+  height: 9px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 9px;
+  line-height: 9px;
+
+  align-items: center;
+  text-align: center;
+
+  letter-spacing: 3.7em;
+  margin-top: 22px;
+  margin-left: 35px;
+
+  color: #ffffff;
+}
+@media only screen and (max-width: 800px) {
+  .memorialgrup {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 6px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 1.26em;
+
+    color: #ffffff;
+  }
+}

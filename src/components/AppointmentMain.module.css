@@ -1,0 +1,121 @@
+.parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: -100px;
+  margin-top: 100px;
+}
+.title {
+  width: 153px;
+  height: 21px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #ffffff;
+}
+.secondparent {
+  margin-top: 30px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.para {
+  width: 322px;
+  height: 143px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #7691b5;
+}
+.btn {
+  width: 195px;
+  height: 43px;
+
+  background: #7691b5;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25), inset -4px -4px 8px #3a5272,
+    inset 4px 4px 8px rgba(255, 255, 255, 0.25);
+  border-radius: 21.5px;
+}
+.apointment {
+  margin-top: 84px;
+  margin-right: 5px;
+}
+@media only screen and (max-width: 800px) {
+  .para {
+    width: 40%;
+    height: 0;
+    position: absolute;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    top: 620px;
+    left: 53%;
+
+    text-align: right;
+
+    color: #7691b5;
+  }
+
+  .btn {
+    margin-top: 50px;
+    position: absolute;
+    width: 25%;
+    height: 36px;
+    left: 65%;
+    top: 800px;
+    font-size: 24px;
+  }
+  .secondparent {
+    margin-left: -50px;
+    align-items: none;
+    text-align: center;
+
+    flex-direction: none;
+  }
+  .apointment {
+    display: none;
+  }
+
+  .img {
+    height: 550px;
+    margin-left: -350px;
+
+    border-radius: 0px;
+  }
+
+  .title {
+    position: absolute;
+    top: 360px;
+    left: 55%;
+    width: auto;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+
+    /* identical to box height */
+
+    color: #ffffff;
+  }
+  .parent {
+    justify-content: none;
+    text-align: none;
+  }
+}

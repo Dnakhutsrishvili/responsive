@@ -1,0 +1,43 @@
+.but1 {
+  height: 12px;
+  width: 12px;
+  background: #7691b5;
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+.but2 {
+  height: 18px;
+  width: 18px;
+  margin-top: -4.5px;
+
+  border-radius: 50%;
+  border: solid #7691b5 2px;
+  cursor: pointer;
+}
+
+.but3 {
+  height: 12px;
+  width: 12px;
+  background: #7691b5;
+  border-radius: 50%;
+  margin-left: -37px;
+  cursor: pointer;
+}
+
+.dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.slideimages {
+  width: 672px;
+  height: 475px;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

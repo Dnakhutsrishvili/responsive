@@ -1,0 +1,56 @@
+.days {
+  width: 20px;
+  height: 19px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  color: #ffffff;
+  margin-left: 8px;
+}
+
+.numbers {
+  text-align: center;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.table {
+  border-spacing: 9px;
+}
+.box {
+  width: 29px;
+  height: 29px;
+  background: rgba(118, 145, 181, 0.4);
+  color: #202e40;
+}
+.boxlight {
+  width: 29px;
+  height: 29px;
+  background: #7691b5;
+
+  color: #ffffff;
+}
+.kvia {
+  color: #7691b5;
+}
+
+@media only screen and (max-width: 800px) {
+  .table {
+    width: 400px;
+  }
+}
